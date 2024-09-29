@@ -29,7 +29,6 @@ function Navbar() {
   return (
     <div>
         <nav className='fixed left-0 right-0 top-4 z-50'>
-            {}
             <div className='mx-auto hidden max-w-sm items-center justify-center rounded-lg bg-black/20 py-4 backdrop-blur-lg lg:flex'>
             <div className='flex justify-between gap-6'>
                 <div>
@@ -45,7 +44,6 @@ function Navbar() {
                 </div>
             </div>
             </div>
-            {}
             <div className='rounded-lg backdrop-blur-md lg:hidden'>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center'>
